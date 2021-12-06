@@ -8,3 +8,5 @@ def app(environ, start_response):
     start_response(status, headers)
 
     return [bytes(body, encoding='utf-8')]
+
+https://github.com/alteslo/stepic_web_tech.git
